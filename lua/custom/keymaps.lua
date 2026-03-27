@@ -24,6 +24,7 @@ vim.diagnostic.config {
 vim.keymap.set('n', '<leader>q', vim.diagnostic.setloclist, { desc = 'Open diagnostic [Q]uickfix list' })
 vim.keymap.set('n', '<leader>cw', '<cmd>cd /mnt/ntfs/HTB/Documents/txt/<cr>', { desc = '[C]hange Directory to [W]indows txt' })
 vim.keymap.set('n', '<leader>cl', '<cmd>cd /home/htb/Documents/Text/<cr>', { desc = '[C]hange Directory to [L]inux Text' })
+vim.keymap.set('n', '<leader>cg', '<cmd>cd /mnt/ntfs/HTB/Obsidian Vault/<cr>', { desc = '[C]hange Directory to Obsidian [G]ame Folder' })
 
 -- Exit terminal mode in the builtin terminal with a shortcut that is a bit easier
 -- for people to discover. Otherwise, you normally need to press <C-\><C-n>, which

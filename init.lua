@@ -75,6 +75,10 @@ require('lazy').setup({
 
   { import = 'custom.plugins.ui' },
 
+  { import = 'custom.plugins.flutter-tools' },
+
+  { import = 'custom.plugins.renpy' },
+
   -- import every plugin from lua/custom/plugins/auto
   { import = 'custom.plugins.auto' },
 
@@ -125,6 +129,8 @@ require('lazy').setup({
     },
   },
 })
+-- uncomment for matugen theme
+-- require 'custom.matugen'
 
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et
